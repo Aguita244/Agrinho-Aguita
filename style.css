@@ -12,7 +12,7 @@ body {
 /* Cabeçalho */
 header {
   background-color: #4CAF50;
-  color: white;
+  color: rgb(27, 221, 36);
   text-align: center;
   padding: 2rem 1rem;
 }
@@ -23,4 +23,4 @@ header h1 {
 
 /* Navegação */
 nav {
-  background-color: #FFA726;
+  background-color: #26ff43;
