@@ -1,11 +1,13 @@
 /* Fundo geral */
 body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #3ca12e;
-  color: #10d33a;
-}
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f4ea; /* Verde claro */
+    color: #333;
+  }
+  
 
 /* Cabeçalho */
 header {
