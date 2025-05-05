@@ -1,71 +1,72 @@
-/* Estilo geral */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2fbe0;
-    color: #333;
-  }
-  
-  /* Cabeçalho */
-  header {
-    background-color: #29e930;
-    color: white;
-    padding: 2rem 1rem;
-    text-align: center;
-  }
-  
-  /* Navegação */
-  nav {
-    background-color: #388e3c;
-    text-align: center;
-    padding: 1rem;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-  }
-  
-  /* Conteúdo principal */
-  .container {
-    padding: 2rem;
-    max-width: 900px;
-    margin: auto;
-  }
-  
-  /* Seções */
-  .section {
-    margin-bottom: 2rem;
-  }
-  
-  .section h2 {
-    color: #2e7d32;
-    margin-bottom: 1rem;
-  }
-  
-  .section p {
-    line-height: 1.6;
-  }
-  
-  /* Espaço do aluno */
-  .custom-area {
-    background-color: #ffffff;
-    border: 2px dashed #ccc;
-    padding: 1rem;
-    text-align: center;
-    color: #777;
-    margin-top: 1rem;
-  }
-  
-  /* Rodapé */
-  footer {
-    background-color: #2e7031;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fff3;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+nav {
+  background-color: #388e3c;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  margin-bottom: 0.5rem;
+}
+
+img.imagem-exemplo {
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #2e7031;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
